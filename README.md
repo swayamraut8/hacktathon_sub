@@ -42,7 +42,7 @@ Product 1: Amul Icecream (UID: 44c2d1cf)
 Product 2: Camlin Oil Pastels (UID:71a6d2cf ) 
 
 
-NOte: The hardware part of the project requires an Express server to run in the background and won't be of any utility in the absence of the necessary electronic components.Sure, here are the updated commands with the provided backend link:
+Note: The hardware part of the project requires an Express server to run in the background and won't be of any utility in the absence of the necessary electronic components.Sure, here are the updated commands with the provided backend link:
 
 ## API Endpoints
 
