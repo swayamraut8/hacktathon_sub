@@ -6,7 +6,6 @@ require('dotenv').config(); // For loading environment variables
 const app = express();
 app.use(cors());
 app.use(express.json());
-
 // MongoDB connection
 const uri = process.env.MONGODB_URI; // Use environment variable for MongoDB URI
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -30,7 +29,6 @@ app.get('/checkUID', async (req, res) => {
   if (!uid) {
     return res.status(400).send('UID parameter is required');
   }
-
   try {
     const product = await Product.findOne({ UID: uid }); // Query the 'product' collection
 
