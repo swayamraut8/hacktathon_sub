@@ -12,6 +12,9 @@ The PayApp project is an innovative solution that integrates RFID technology, QR
 - Backend Server: Manages API requests, processes transactions, and handles product data stored in MongoDB.
 - Real-time Updates: Ensures that the product information and user balance are always up-to-date.
 
+## Store-side Dashboard App
+https://snap-it-dashboard.onrender.com
+
 
 ## Tech Stack
 
